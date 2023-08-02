@@ -25,7 +25,6 @@ The notebook consists of 3 main sections:
 
 - Parepare the data set
 - 1. K-means clustering
-  
 - 2.1 Fit the model
 - 2.2 Evaluate model performance
   
