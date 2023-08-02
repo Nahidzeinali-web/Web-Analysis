@@ -8,8 +8,12 @@ sentiments rather than full of just neutral facts. This web page meets the three
 • Performing a cluster and topic analysis
 
 # Step 1:
-When we collect all articles, parse the HTML code of each article and extract article title, article body text, posting date and time, and author. We will extract information
-from all the articles and save it in a single CSV file in which a row corresponds to an article.
+When we collect all articles, parse the HTML code of each article and extract article title, article body text, posting date and time, and author. We will extract information from all the articles and save it in a single CSV file in which a row corresponds to an article.
+
+- The notebook consists of two main sections:
+
+- Download the HTML Files
+- Extract and Store Articles
 
 # Step2:
 
