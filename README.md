@@ -25,12 +25,12 @@ The notebook consists of 3 main sections:
 
 - Parepare the data set
 - K-means clustering
-- 
-2.1 Fit the model
-2.2 Evaluate model performance
+  
+- 2.1 Fit the model
+- 2.2 Evaluate model performance
   
 - LDA topic modeling
-3.1 Fit the model
-3.2 Model evaluation and visualizaiton
+- 3.1 Fit the model
+- 3.2 Model evaluation and visualizaiton
   
-In summary, the K-Means model found 6 clusters that could be differentiated by keyword analysis; the LDA model generated 3 topics for the data set.
+📌 In summary, the K-Means model found 6 clusters that could be differentiated by keyword analysis; the LDA model generated 3 topics for the data set.
