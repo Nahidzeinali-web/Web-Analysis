@@ -24,12 +24,12 @@ same data to find some topics with contributing keywords that have been the best
 The notebook consists of 3 main sections:
 
 - Parepare the data set
-- K-means clustering
+- 1. K-means clustering
   
 - 2.1 Fit the model
 - 2.2 Evaluate model performance
   
-- LDA topic modeling
+- 2. LDA topic modeling
 - 3.1 Fit the model
 - 3.2 Model evaluation and visualizaiton
   
