@@ -13,10 +13,24 @@ from all the articles and save it in a single CSV file in which a row correspond
 
 # Step2:
 
-First, we tokenize the body text in all articles into sentences and merge all the identified sentences. Second, we create a random sample 2000 sentences out of all the sentences.
-Third, we read the 2000 sentences one by one and manually label each sentence to label each of the following three sentiments (positive, negative, and neutral) and then we
-create a CSV file, in which each row has a sentence and its sentiment. Lastly, we develop a sentiment classifier that predicts the sentiment of a new sentence. We apply
-all the classifications algorithms that we have learned and select the best performing classifier, test it to show how to respond diverse types of sentences.
+We randomly selected 2000 sentences from the body texts of the downloaded articles as the data set. After manually labelling the sentences as positive, negative, and neutral, we randomly selected 80% of the sentences in the data set as training data to train 8 different kinds of classification algorithms. We then compared the algothrims' performances to select the best classifier for our data set.
+
+- The notebook consists of 4 main sections:
+
+- Construct the data set
+- Prepare the data for modeling
+- Classifier selection
+- 3.1. K-Nearest Neighbours
+- 3.2. Logistic Regression
+- 3.3. Multinomial Naive Bayes
+- 3.4. Devision Tress
+- 3.5. Random Forest
+- 3.6. Linear Support Vector Machines
+- 3.7. Kernalized Support Vector Machines
+- 3.8. Neural Network
+- Test the selected model
+  
+📌 By comparing their performances regarding test accuracy and other indexes, we selected Random Forest as the best classification algorithm for our data set, and tested it on 10 new sentences.
 # Step3:
 
 First, we apply k-means clustering to all the 3000 articles and find some clusters of related articles which explain the data. Second, we apply LDA topic modeling to the
