@@ -21,3 +21,16 @@ all the classifications algorithms that we have learned and select the best perf
 
 First, we apply k-means clustering to all the 3000 articles and find some clusters of related articles which explain the data. Second, we apply LDA topic modeling to the
 same data to find some topics with contributing keywords that have been the best explanation of data.
+The notebook consists of 3 main sections:
+
+- Parepare the data set
+- K-means clustering
+- 
+2.1 Fit the model
+2.2 Evaluate model performance
+  
+- LDA topic modeling
+3.1 Fit the model
+3.2 Model evaluation and visualizaiton
+  
+In summary, the K-Means model found 6 clusters that could be differentiated by keyword analysis; the LDA model generated 3 topics for the data set.
