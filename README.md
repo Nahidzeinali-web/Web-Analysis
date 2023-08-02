@@ -4,7 +4,9 @@ improvement, decor, gardening, cooking, and cleaning. Articles provide step-by-s
 sentiments rather than full of just neutral facts. This web page meets the three main steps of our project:
 
 -• Scraping of web articles
+
 -• Developing a sentiment classifier
+
 -• Performing a cluster and topic analysis
 
 # Step 1:
