@@ -3,9 +3,9 @@ This is a my project for web scraping. We selected the website Home Sweet Home |
 improvement, decor, gardening, cooking, and cleaning. Articles provide step-by-step guides to help people improve their living spaces and make their homes more comfortable and functional. This website has more than 3000 articles with many
 sentiments rather than full of just neutral facts. This web page meets the three main steps of our project:
 
-• Scraping of web articles
-• Developing a sentiment classifier
-• Performing a cluster and topic analysis
+-• Scraping of web articles
+-• Developing a sentiment classifier
+-• Performing a cluster and topic analysis
 
 # Step 1:
 When we collect all articles, parse the HTML code of each article and extract article title, article body text, posting date and time, and author. We will extract information from all the articles and save it in a single CSV file in which a row corresponds to an article.
